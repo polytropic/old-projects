@@ -1,0 +1,313 @@
+
+		body {
+		font-family: Baskerville, “Baskerville Old Face”, “Hoefler Text”, Garamond, “Times New Roman”, serif;
+		font-size: 18px;
+		color: #661400;
+		background-color: #faf2ea;
+		min-width: 780px;
+		max-width: 1260px;
+		margin: 10px auto;
+		padding: 10px;
+
+		}
+		
+		a:link {color: #661400; font-style: italic; font-weight: bold;}
+		a:visited {color: #661400; font-style: italic; font-weight: bold;}
+		a:hover {color: #cc2900; font-style: italic; font-weight: bold;}
+		a:active {color: #661400;	 font-style: italic; font-weight: bold;}
+
+		p {
+		border-width: 1px;
+		border-color: #cc2900;
+		padding: 10px;
+		border-style: dashed;
+		border-radius: 5px;
+		overflow: auto
+		}
+
+		form {
+		border-width: 1px;
+		border-color: #cc2900;
+		padding: 10px;
+		border-style: dashed;
+		border-radius: 5px;
+		}
+		
+		div#header {
+		border-radius: 10px;
+		font-family: 'Bad Script', cursive;
+		font-weight: bold;
+		color: #661400;
+		text-shadow: 2 2 1px #661400, 2 2 1px #cc2900;
+		background-color: #ecccac;
+	    background-image: url("leaves.gif");
+        background-position: right top;
+	    background-repeat: no-repeat;
+		border-style: solid;
+		border-width: 0px;
+		border-color: black;
+		min-width: 780px;
+		max-width: 1260px;
+		margin: 10px auto;
+		padding: 10px 28px 10px 28px;
+		}
+		
+		div#main {
+		border-radius: 10px;
+		font-family: Baskerville, “Baskerville Old Face”, “Hoefler Text”, Garamond, “Times New Roman”, serif;
+		color: #661400;
+		background-color: #ecccac;
+		border-style: solid;
+		border-width: 0px;
+		border-color: black;
+		min-width: 780px;
+		max-width: 1260px;
+		margin: 10px auto;
+		padding: 10px;
+		border-style: double;
+		overflow: auto;
+		clear: both; 
+		}
+		
+		div#footer {
+		font-family: Baskerville, “Baskerville Old Face”, “Hoefler Text”, Garamond, “Times New Roman”, serif;
+		font-size: 12px;
+		text-align: center;
+		color: #661400;
+		background-color: 3B3847;
+		border-style: hidden;
+		border-width: 0px;
+		border-color: black;
+		min-width: 780px;
+		max-width: 1260px;
+		margin: 10px auto;
+		padding: 10px;
+		border-radius: 10px;
+		}
+		
+		div#error {
+		font-family: Baskerville, “Baskerville Old Face”, “Hoefler Text”, Garamond, “Times New Roman”, serif;
+		font-size: 12px;
+		text-align: center;
+		color: #661400;
+		background-color: 3B3847;
+		border-style: hidden;
+		border-width: 0px;
+		border-color: black;
+		min-width: 780px;
+		max-width: 1260px;
+		margin: 10px auto;
+		padding: 10px;
+		border-radius: 10px;
+		}
+		
+		
+		nav {		
+		min-width: 780px;
+		max-width: 1260px;
+		}
+		
+		nav ul ul {
+    	display: none;
+        }
+
+	    nav ul li:hover > ul {
+		display: block;
+
+	    }
+		
+		nav ul {
+    	background: #999900; 
+		box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+		padding: 0 20px;
+		list-style: none;
+		position: relative;
+
+		}
+		
+		nav ul:after {
+		content: ""; clear: both; display: block;
+		}
+
+		nav ul li {
+		float: left;
+		}
+		
+		nav ul li:hover {
+		background: #394d00;
+
+		}
+		
+		nav ul li:hover a {
+		color: #cc2900;
+		}
+	
+		nav ul li a {
+		display: block; padding: 25px 40px;
+		color: #cc2900; text-decoration: none;
+		}
+		
+nav ul ul { 
+
+	background: #999900; border-radius: 0px; padding: 0;
+	position: absolute; top: 100%;
+}
+	nav ul ul li {
+		float: none; 
+		border-top: 1px dashed #394d00;
+		border-bottom: 1px dashed #394d00;
+		position: relative;
+	}
+		nav ul ul li a {
+			padding: 15px 40px;
+			color: #fff;
+		}	
+			nav ul ul li a:hover {
+				background: #394d00;
+			}
+			
+	
+	#wrapper {
+		border-radius: 10px;
+		font-family: Baskerville, “Baskerville Old Face”, “Hoefler Text”, Garamond, “Times New Roman”, serif;
+		color: #661400;
+		background-color: #ecccac;
+
+		border-width: 0px;
+		border-color: black;
+		min-width: 780px;
+		max-width: 1260px;
+		margin: 10px auto;
+		padding: 10px;
+		border-style: double;	
+		clear: both;        
+		overflow: auto; 
+		
+}
+ 
+#content {
+	min-width: 780px;
+	max-width: 1260px;
+	border-width: 1px;
+	border-color: #cc2900;
+	padding: 10px;		
+	border-style: dashed;
+	border-radius: 5px;
+	overflow: auto;
+    background-color: #faf2ea;
+    float: auto;
+	font-family: Baskerville, “Baskerville Old Face”, “Hoefler Text”, Garamond, “Times New Roman”, serif;
+	font-size: 18px;
+    text-align: left;          
+	margin: 10px auto;
+	clear: both; 
+}
+ 
+#menu {
+	font-family: Baskerville, “Baskerville Old Face”, “Hoefler Text”, Garamond, “Times New Roman”, serif;
+    float: auto;
+    border-bottom: 1px solid #000;        
+    clear: both; 
+	min-width: 780px;
+	max-width: 1260px;
+    height: 25px;
+    padding: 10px;
+    background-color: #faf2ea;
+    text-align: left;
+    font-size: 18;
+	border-width: 1px;
+	border-color: #cc2900;
+	border-style: solid;	
+	border-radius: 5px;
+	overflow: auto;
+	margin: 10px auto;
+	float: auto;
+}
+ 
+#menu a:hover {
+    background-color: #394d00;
+	
+}
+ 
+#userbar {
+    background-color: #999900;
+    float: right;
+    width: 250px;
+}
+ 
+
+
+table {
+    border-collapse: collapse;
+	border-width: 1px;
+    border-style: solid;
+	border-color: #661400;
+	table-layout:fixed;
+    width: 100%;
+}
+ 
+table a {
+    color: #000;
+}
+ 
+table a:hover {
+    color:#373737;
+    text-decoration: none;
+}
+ 
+th {
+	font-family: sans-serif;
+	border: 1px solid black;
+    background-color: #999900;
+    color: #661400;
+	padding: 5px;
+}
+ 
+td {
+	border: 1px solid black;
+    padding: 5px;
+	word-wrap:break-word;
+}
+ 
+
+ 
+h3 {margin: 0; 
+padding: 0;
+overflow: auto;}
+ 
+
+.item {
+    background-color: #999900;
+    border: 1px solid #032472;
+    color: #661400;
+	font-family: Baskerville, “Baskerville Old Face”, “Hoefler Text”, Garamond, “Times New Roman”, serif;
+    padding: 3px;
+    text-decoration: none;
+}
+ 
+.leftpart {
+    width: 70%;
+}
+ 
+.rightpart {
+    width: 30%;
+}
+ 
+.small {
+    font-size: 75%;
+    color: #373737;
+}
+ 
+.topic-post {
+    height: 100px;
+    overflow: auto;
+}
+ 
+.post-content {
+    padding: 30px;
+}
+ 
+textarea {
+    width: 500px;
+    height: 200px;
+}
